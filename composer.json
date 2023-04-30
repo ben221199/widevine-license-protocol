@@ -1,0 +1,30 @@
+{
+	"name": "ben221199/widevine-license-protocol",
+	"type": "library",
+	"description": "Implement the Widevine License Protocol in PHP.",
+	"keywords":[
+		"composer",
+		"drm",
+		"license",
+		"php",
+		"protocol",
+		"widevine",
+	],
+	"license": "GPL-3.0-or-later",
+	"require": {
+		"php": "^7||^8"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^7||^8||^9"
+	},
+	"autoload": {
+		"psr-4": {
+			"": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"": "tests/"
+		}
+	}
+}
